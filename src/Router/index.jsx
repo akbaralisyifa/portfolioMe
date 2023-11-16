@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from '../Pages/Home';
+import About from '../Components/About';
+import Skills from '../Pages/Skills';
 
 export default function index() {
   const initialRoute = [
@@ -10,11 +12,11 @@ export default function index() {
     },
     {
       path: '/about',
-      element: <div>About</div>,
+      element: <About />,
     },
     {
       path: '/skills',
-      element: <div>skills</div>,
+      element: <Skills />,
     },
     {
       path: '/projects',
