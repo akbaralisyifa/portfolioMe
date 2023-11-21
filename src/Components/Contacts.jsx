@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 
 import { dataContacts } from '../dataContact';
 import img from '../assets/img/fotomy.png';
-import linkedinAtom from './Atom/linkedinAtom';
-
 export default function Contacts() {
   return (
     <div className="sm:w-2/6 mt-32 mx-auto ">

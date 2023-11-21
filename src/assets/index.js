@@ -12,7 +12,7 @@ import NEXT from './icons/next.svg';
 import MANTINE from './icons/mantine.svg';
 import POSTMAN from './icons/postman.svg';
 import NODE from './icons/node.svg';
-import MOCKAPI from './icons/mockapi.png';
+import MOCKAPI from './icons/mockApi.png';
 import VSCODE from './icons/vscode.svg';
 import GITHUB from './icons/git.png';
 import DEMO from './icons/demo.png';
