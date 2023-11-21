@@ -5,6 +5,7 @@ import About from '../Pages/About';
 import Skills from '../Pages/Skills';
 import Project from '../Pages/Project';
 import Certificate from '../Pages/Certificate';
+import Contacts from '../Components/Contacts';
 
 export default function index() {
   const initialRoute = [
@@ -30,7 +31,7 @@ export default function index() {
     },
     {
       path: '/contact',
-      element: <div>contact</div>,
+      element: <Contacts />,
     },
   ];
 
