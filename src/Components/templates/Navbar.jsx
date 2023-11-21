@@ -35,6 +35,12 @@ export default function Navbar() {
   const [isActive, setIsActive] = useState(findActive);
   const [opened, setOpened] = useState(false);
 
+  const handleClik = (link) => {
+    console.log(link);
+    setIsActive(link);
+    setOpened(false);
+  };
+
   const toggle = () => {
     setOpened((o) => !o);
   };
@@ -59,7 +65,7 @@ export default function Navbar() {
             <Link
               className={` py-2 font-semibold transition duration-300 ease-in-out ${isActive === link.name ? 'border-b-2 text-primary border-primary hover:text-primborder-primary' : ' hover:text-gray-600'}`}
               to={link.path}
-              onClick={() => setIsActive(link.name)}
+              onClick={() => handleClik(link.name)}
             >
               {link.name}
             </Link>

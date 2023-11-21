@@ -1,8 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from '../Pages/Home';
-import About from '../Components/About';
+import About from '../Pages/About';
 import Skills from '../Pages/Skills';
+import Project from '../Pages/Project';
+import Certificate from '../Pages/Certificate';
 
 export default function index() {
   const initialRoute = [
@@ -20,11 +22,11 @@ export default function index() {
     },
     {
       path: '/projects',
-      element: <div>projects</div>,
+      element: <Project />,
     },
     {
       path: '/certificates',
-      element: <div>Certificates</div>,
+      element: <Certificate />,
     },
     {
       path: '/contact',

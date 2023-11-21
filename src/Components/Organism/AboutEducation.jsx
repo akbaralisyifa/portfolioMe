@@ -4,7 +4,7 @@ import React from 'react';
 export default function AboutEducation() {
   return (
     <div className="sm:w-1/2">
-      <h1 className="text-2xl font-semibold font-poppins text-primary drop-shadow-md mb-5">Education</h1>
+      <h1 className="text-2xl font-semibold font-poppins text-primary drop-shadow-md sm:mb-5 mt-10 sm:mt-0">Education</h1>
       <Timeline active={1} bulletSize={22} lineWidth={6}>
         <Timeline.Item title="University" variant="unstyled" className="font-semibold text-xl">
           <h2 className="font-poppins text-sm  font-semibold text-primary mt-3 ml-3">
