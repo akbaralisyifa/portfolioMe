@@ -4,9 +4,9 @@ import { Tooltip } from '@mantine/core';
 
 export default function ProjectList({ datas }) {
   return (
-    <div className="flex flex-wrap gap-3 mt-10 sm:justify-between justify-center mb-10 items-center">
+    <div className="flex flex-wrap gap-3 mt-10 justify-center mb-10 ">
       {datas.map((data, index) => (
-        <div key={index} className=" w-[310px] rounded-xl border border-primary border-opacity-30 p-3 shadow-lg">
+        <div key={index} className=" w-[250px] rounded-xl border border-primary border-opacity-30 p-3 shadow-lg flex flex-col justify-between">
           <div className="flex justify-between items-center ">
             <h3 className="text-xl font-poppins text-primary font-semibold drop-shadow-md">{data.title}</h3>
             <div className="flex gap-3">

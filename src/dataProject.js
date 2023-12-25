@@ -2,6 +2,16 @@ import { REACT, REDUX, TAILWIND, FIRESTORE, JS, MANTINE, MOCKAPI, BOOTSTREP, HTM
 
 export const datas = [
   {
+    title: 'Test Skills',
+    deskripsi: 'Test Assessment Skills membuat tampilan dashboard sesuai dengan UI yang diberikan',
+    demo: 'https://test-skill-dashboard.vercel.app',
+    github: 'https://github.com/akbaralisyifa/Test_Dashboard',
+    icons: [
+      { name: 'React', img: REACT },
+      { name: 'Tailwind', img: TAILWIND },
+    ],
+  },
+  {
     title: 'MedKit',
     deskripsi: 'Website Penjualan Obat dengan memanfaatkan Redux, berintegrasi dengan Open AI, serta Memiliki Dashboard Admin',
     demo: 'https://medkit-gilt.vercel.app/',
