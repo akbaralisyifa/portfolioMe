@@ -8,7 +8,7 @@ export default function AboutMeOrganism() {
         <p className="flex flex-col text-justify font-poppins text-base">
           <span className="mb-2">
             {' '}
-            <span className="text-primary font-semibold">I am Muhammad Akbar Ali Syifa</span>, a student in the 7th Semester Digital Business non-regular class at the computer faculty.
+            <span className="text-primary font-semibold">I am Muhammad Akbar Ali Syifa</span>, a student in the 8th Semester Digital Business non-regular class at the computer faculty.
           </span>
           <span className="mb-2">
             I am very proud to be an alumnus of the 4th and 5th batch of the <span className="text-primary font-semibold">MSIB Study Independent Kampus Merdeka program, in the SIB Dicoding</span> program with a specialization in Front-End
