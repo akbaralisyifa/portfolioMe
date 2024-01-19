@@ -25,6 +25,7 @@ import {
   LAINNYA6,
   LAINNYA7,
   LAINNYA8,
+  ALTERRA,
 } from './assets';
 
 export const MSIBKampusMerdeka = [
@@ -108,8 +109,8 @@ export const DicodingAcademy = [
 export const AlterraAcademy = [
   {
     title: 'Alterra Academy',
-    link: '/certificates',
-    img: '',
+    link: 'https://drive.google.com/file/d/1Uc4U-cDUKgrayfxwCkUytUoORCIu3gL8/view?usp=sharing',
+    img: ALTERRA,
     alt: 'Alterra Academy',
   },
 ];

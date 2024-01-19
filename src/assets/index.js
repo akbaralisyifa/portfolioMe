@@ -46,6 +46,8 @@ import LAINNYA6 from './img/sertifkat/lainnya6.png';
 import LAINNYA7 from './img/sertifkat/lainnya7.png';
 import LAINNYA8 from './img/sertifkat/lainnya8.png';
 
+import ALTERRA from './img/sertifkat/sertif_alterra.jpg';
+
 export { HERO_IMG, BOOTSTREP, CSS, HTML, REACT, REDUX, TAILWIND, FIGMA, FIRESTORE, JS, NEXT, MANTINE, POSTMAN, NODE, MOCKAPI, VSCODE, GITHUB, DEMO };
 
 export {
@@ -75,4 +77,5 @@ export {
   LAINNYA6,
   LAINNYA7,
   LAINNYA8,
+  ALTERRA,
 };
