@@ -11,8 +11,8 @@ export default function AboutMeOrganism() {
             <span className="text-primary font-semibold">I am Muhammad Akbar Ali Syifa</span>, a student in the 7th Semester Digital Business non-regular class at the computer faculty.
           </span>
           <span className="mb-2">
-            I am very proud to be an alumnus of the 4th batch of the <span className="text-primary font-semibold">MSIB Kampus Merdeka Dicoding program</span>, specializing in Front-End and Back-End Web Development. Currently, I am further
-            developing my Hard Skills at <span className="text-primary font-semibold">SIB Kampus Merdeka Alterra Academy program </span> in the Batch 5 Independent, with the main focus on Front-End Engineering with ReactJS.
+            I am very proud to be an alumnus of the 4th and 5th batch of the <span className="text-primary font-semibold">MSIB Study Independent Kampus Merdeka program, in the SIB Dicoding</span> program with a specialization in Front-End
+            and Back-End Web Development, then <span className="text-primary font-semibold">SIB Alterra Academy</span> with a main focus on Front-End Engineering with ReactJS.
           </span>
           <span>I can develop and maintain websites using HTML, CSS, JavaScript, and React JS.</span>
         </p>
