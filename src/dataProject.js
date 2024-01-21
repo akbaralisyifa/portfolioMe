@@ -2,8 +2,19 @@ import { REACT, REDUX, TAILWIND, FIRESTORE, JS, MANTINE, MOCKAPI, BOOTSTREP, HTM
 
 export const datas = [
   {
+    title: 'Netflix',
+    deskripsi: 'Website Netflix yang menampilkan list film',
+    demo: 'https://netflix-project-lemon.vercel.app/',
+    github: 'https://github.com/akbaralisyifa/Netflix_Project',
+    icons: [
+      { name: 'React', img: REACT },
+      { name: 'Tailwind', img: TAILWIND },
+      { name: 'Firebase', img: FIRESTORE },
+    ],
+  },
+  {
     title: 'Test Skills',
-    deskripsi: 'Test Assessment Skills membuat tampilan dashboard sesuai dengan UI yang diberikan',
+    deskripsi: 'Test Assessment Skills membuat tampilan dashboard sesuai dengan UI',
     demo: 'https://test-skill-dashboard.vercel.app',
     github: 'https://github.com/akbaralisyifa/Test_Dashboard',
     icons: [
