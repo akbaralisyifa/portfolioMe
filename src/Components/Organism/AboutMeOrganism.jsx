@@ -11,10 +11,9 @@ export default function AboutMeOrganism() {
             <span className="text-primary font-semibold">I am Muhammad Akbar Ali Syifa</span>, a student in the 8th Semester Digital Business non-regular class at the computer faculty.
           </span>
           <span className="mb-2">
-            I am very proud to be an alumnus of the 4th and 5th batch of the <span className="text-primary font-semibold">MSIB Study Independent Kampus Merdeka program, in the SIB Dicoding</span> program with a specialization in Front-End
-            and Back-End Web Development, then <span className="text-primary font-semibold">SIB Alterra Academy</span> with a main focus on Front-End Engineering with ReactJS.
+            As a fresh graduate, I have honed my skills as a <span className="text-primary font-semibold">Full Stack Developer</span>, proficient in <span className="text-primary font-semibold">Front-End development using JavaScript, React JS, and Next JS</span>, as well as in <span className="text-primary font-semibold">Back-End development using Golang</span>. Through participation in the MSIB Kampus Merdeka program and a bootcamp at Alterra Academy, I have sharpened my front-end engineering skills and developed high-performance, responsive websites.
           </span>
-          <span>I can develop and maintain websites using HTML, CSS, JavaScript, and React JS.</span>
+          <span>This combination of formal education and practical experience equips me with a deep understanding of the needs and challenges of contemporary digital business.</span>
         </p>
       </div>
       <div className="w-2/5 hidden sm:block">

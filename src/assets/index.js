@@ -16,6 +16,15 @@ import MOCKAPI from './icons/mockApi.png';
 import VSCODE from './icons/vscode.svg';
 import GITHUB from './icons/git.png';
 import DEMO from './icons/demo.png';
+import GOLANG from './icons/golang.png';
+import ECHO from './icons/echo.png';
+import POSTGRESQL from './icons/posgresql.png';
+import GORM from './icons/gorm.svg';
+import JWT from './icons/jwt.png';
+import TESTIFY from './icons/testify.png';
+import AWS from './icons/aws.png';
+import GIT from './icons/github.png';
+import DOCKER from './icons/docker.png';
 
 import MSIB from './img/sertifkat/sib.png';
 import DICODING1 from './img/sertifkat/dicoding1.png';
@@ -48,7 +57,7 @@ import LAINNYA8 from './img/sertifkat/lainnya8.png';
 
 import ALTERRA from './img/sertifkat/sertif_alterra.jpg';
 
-export { HERO_IMG, BOOTSTREP, CSS, HTML, REACT, REDUX, TAILWIND, FIGMA, FIRESTORE, JS, NEXT, MANTINE, POSTMAN, NODE, MOCKAPI, VSCODE, GITHUB, DEMO };
+export { DOCKER, GIT, AWS, TESTIFY, JWT, GORM, POSTGRESQL, ECHO, GOLANG, HERO_IMG, BOOTSTREP, CSS, HTML, REACT, REDUX, TAILWIND, FIGMA, FIRESTORE, JS, NEXT, MANTINE, POSTMAN, NODE, MOCKAPI, VSCODE, GITHUB, DEMO };
 
 export {
   MSIB,

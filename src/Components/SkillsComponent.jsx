@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import SkillList from './Organism/SkillList.jsx';
 import JudulAtom from './Atom/JudulAtom.jsx';
 
-const initalLink = ['Languages', 'Frameworks/Librarys', 'UI Framework/Components', 'DBMS', 'Tools'];
+const initalLink = ['Languages', 'Frameworks/Librarys', 'UI Framework/Components', 'DBMS', 'Deployment/Container', 'Tools'];
 
 export default function SkillsComponent() {
   const param = useLocation();
