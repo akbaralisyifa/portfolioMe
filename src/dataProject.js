@@ -1,6 +1,60 @@
-import { REACT, REDUX, TAILWIND, FIRESTORE, JS, MANTINE, MOCKAPI, BOOTSTREP, HTML, CSS } from './assets';
+import { REACT, REDUX, TAILWIND, FIRESTORE, JS, MANTINE, MOCKAPI, BOOTSTREP, HTML, CSS, GOLANG, ECHO, JWT, TESTIFY, POSTGRESQL, AWS, DOCKER } from './assets';
 
 export const datas = [
+  {
+    title: 'EmpowerHR-App',
+    deskripsi: '"Empower HR" is a software solution designed to make it easier to manage human resources within a company.',
+    demo: '',
+    github: 'https://github.com/Empower-HR/BE-Empower-HR',
+    icons: [
+      { name: 'Golang', img: GOLANG },
+      { name: 'Echo', img: ECHO },
+      { name: 'Jwt', img: JWT },
+      { name: 'Unit Testing', img: TESTIFY },
+      { name: 'PostgreSQL', img: POSTGRESQL },
+      { name: 'AWS', img: AWS },
+      { name: 'Docker', img: DOCKER },
+    ],
+  },
+  {
+    title: 'Ecommerce-App',
+    deskripsi: 'Ecommerce App adalah sebuah aplikasi yang digunakan untuk memanajemen toko online.',
+    demo: '',
+    github: 'https://github.com/akbaralisyifa/K2-Project-Ecommerce',
+    icons: [
+      { name: 'Golang', img: GOLANG },
+      { name: 'Echo', img: ECHO },
+      { name: 'Jwt', img: JWT },
+      { name: 'Unit Testing', img: TESTIFY },
+      { name: 'PostgreSQL', img: POSTGRESQL },
+    ],
+  },
+  {
+    title: 'News-Apps',
+    deskripsi: 'News Apps adalah sebuah aplikasi yang digunakan untuk berbagi cerita atau artikel.',
+    demo: '',
+    github: 'https://github.com/akbaralisyifa/News_Apps',
+    icons: [
+      { name: 'Golang', img: GOLANG },
+      { name: 'Echo', img: ECHO },
+      { name: 'Jwt', img: JWT },
+      { name: 'Unit Testing', img: TESTIFY },
+      { name: 'PostgreSQL', img: POSTGRESQL },
+    ],
+  },
+  {
+    title: 'Learning Golang',
+    deskripsi: 'Kumpulan Tugas Immersive Program Backend Golang | Alterra Academy',
+    demo: '',
+    github: 'https://github.com/akbaralisyifa/ALTA-BE23-Muhammad-Akbar-Ali-Syifa',
+    icons: [
+      { name: 'Golang', img: GOLANG },
+      { name: 'Echo', img: ECHO },
+      { name: 'Jwt', img: JWT },
+      { name: 'Unit Testing', img: TESTIFY },
+      { name: 'PostgreSQL', img: POSTGRESQL },
+    ],
+  },
   {
     title: 'Netflix',
     deskripsi: 'Website Netflix yang menampilkan list film',
